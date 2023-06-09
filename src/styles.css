@@ -1,4 +1,43 @@
+:root {
+  --box-background: linear-gradient(
+    98.3deg,
+    rgb(0, 0, 0) 10.6%,
+    rgb(255, 0, 0) 97.7%
+  );
+  --border: 1px solid black;
+  --border-radious: 5px;
+  --box-shadow: 5px 5px 5px;
+}
 h1 {
-  color: red;
+  text-align: center;
   font-family: "Dancing Script", cursive;
+  font-size: 96px;
+}
+h5 {
+  text-align: center;
+  font-family: Poppins;
+}
+
+.headingOne {
+  font-size: 36px;
+  font-weight: 400px;
+}
+.headingThree {
+  font-size: 24px;
+  font-weight: 400;
+}
+.contactButton {
+  text-align: center;
+  border: var(--border);
+  border-radius: var(--border-radious);
+  box-shadow: var(--box-shadow);
+  padding: 15px 30px 15px 30px;
+  font-size: 24px;
+  background: var(--box-background);
+}
+img {
+  display: block;
+  margin: auto;
+
+  border-radius: var(--border-radious);
 }
