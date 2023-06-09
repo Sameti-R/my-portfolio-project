@@ -4,18 +4,33 @@
     rgb(0, 0, 0) 10.6%,
     rgb(255, 0, 0) 97.7%
   );
+  --secondry-background: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
   --border: 1px solid black;
   --border-radious: 5px;
+  --secondry-border-radious: 10px;
   --box-shadow: 5px 5px 5px;
+  --name-font: "Dancing Script", cursive;
+  --heading-font: Poppins;
+}
+.hero {
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 10px;
+  background: var(--secondry-background);
+  border-radius: var(--secondry-border-radious);
 }
 h1 {
   text-align: center;
-  font-family: "Dancing Script", cursive;
+  font-family: var(--name-font);
   font-size: 96px;
 }
 h5 {
   text-align: center;
-  font-family: Poppins;
+  font-family: var(--heading-font);
 }
 
 .headingOne {
@@ -38,6 +53,6 @@ h5 {
 img {
   display: block;
   margin: auto;
-
-  border-radius: var(--border-radious);
+  max-width: 100%;
+  height: auto;
 }
