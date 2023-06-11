@@ -20,6 +20,7 @@
   text-align: center;
   padding: 30px 20px;
   margin-top: 10px;
+  margin-bottom: 20px;
   background: var(--secondry-background);
   border-radius: var(--secondry-border-radious);
 }
@@ -55,4 +56,11 @@ img {
   margin: auto;
   max-width: 100%;
   height: auto;
+}
+.starter {
+  text-align: start;
+  font-family: var(--heading-font);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
 }
