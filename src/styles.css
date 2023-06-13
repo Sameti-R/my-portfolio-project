@@ -58,6 +58,7 @@ p {
 img {
   display: block;
   margin: auto;
+
   max-width: 100%;
   height: auto;
 }
@@ -85,4 +86,10 @@ img {
   .contactButton {
     font-size: 16px;
   }
+}
+.aboutPageHeading {
+  font-size: 64px;
+}
+.aboutHero {
+  padding: 120px 60px;
 }
