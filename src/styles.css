@@ -58,9 +58,9 @@ p {
 img {
   display: block;
   margin: auto;
-
-  max-width: 100%;
-  height: auto;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
 .starter {
   text-align: start;
@@ -92,4 +92,38 @@ img {
 }
 .aboutHero {
   padding: 120px 60px;
+}
+.workPageHeadingOne {
+  font-size: 16px;
+}
+.workPageName {
+  font-size: 36px;
+}
+.workPageHeadingThree {
+  text-align: center;
+  font-family: var(--heading-font);
+  font-size: 24px;
+}
+.icon {
+  font-size: 64px;
+}
+.look {
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  font-size: 30px;
+}
+.projectTitle {
+  text-align: center;
+  font-family: var(--heading-font);
+  font-size: 24px;
+  font-weight: bold;
+}
+.coding {
+  text-align: center;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
