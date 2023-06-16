@@ -21,6 +21,10 @@
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Lobster&family=Tilt+Warp&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Lobster&family=Poppins:wght@700&family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/ae34ec4bba.js"
       crossorigin="anonymous"
@@ -30,13 +34,27 @@
   </head>
   <div class="container">
     <body>
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <p class="nav-name">
+            <span> <i class="fa-solid fa-laptop-code"></i></span>
+            <span class="title-name">Rezvan Sameti</span>
+          </p>
+          <ul>
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="/about-me.html" target="_blank">About Me</a></li>
+            <li><a href="/work.html" target="_blank">My Projects</a></li>
+            <li><a href="/contact-me.html" target="_blank">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
       <div class="hero">
         <img
           src="images/my-picture.jpg"
           alt="Rezvan Sameti"
           title="Rezvan Sameti(Front-End Developer)"
           width="150px"
-          class="mt-5 img-fluid rounded"
+          class="mt-5 img-fluid rounded main-picture"
         />
         <h5 class="headingOne mt-3">Hi!I'm</h5>
         <h1>Rezvan Sameti</h1>
@@ -45,7 +63,11 @@
         <div class="row mt-5">
           <div class="col-md-4 text-center"></div>
           <div class="myButton col-md-4 text-center">
-            <a class="btn btn-danger contactButton" href="#" role="button"
+            <a
+              class="btn btn-danger contactButton"
+              href="/contact-me.html"
+              target="_blank"
+              role="button"
               >Contact me</a
             >
           </div>
