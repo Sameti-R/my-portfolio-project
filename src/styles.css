@@ -29,6 +29,10 @@ h1 {
   font-family: var(--name-font);
   font-size: 64px;
 }
+
+h2,
+h3,
+h4,
 h5 {
   text-align: center;
   font-family: var(--heading-font);
@@ -68,6 +72,11 @@ p {
   font-size: 24px;
   font-style: italic;
   font-weight: bold;
+  padding: 30px 15px;
+  text-align: center;
+}
+.weather-app {
+  padding: 100px 20px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -110,8 +119,8 @@ p {
   font-weight: bold;
   text-align: center;
   font-size: 30px;
-  background: var(--secondry-background);
-  border-radius: var(--secondry-border-radious);
+
+  padding: 60px 20px;
 }
 .projectTitle {
   text-align: center;
@@ -130,7 +139,7 @@ p {
 .get-in-touch {
   font-family: var(--heading-font);
   font-size: 56px;
-  padding: 120px 60px;
+  padding: 50px 20px;
   margin-top: 20px;
 }
 a {
@@ -162,8 +171,11 @@ nav a {
   font-family: var(--heading-font);
   font-size: 16px;
 }
-nav a:hover,
-nav a:active {
+nav a:hover {
+  color: rgb(129, 30, 30);
+  font-size: 20px;
+}
+.active {
   color: rgb(129, 30, 30);
   font-size: 20px;
 }
@@ -207,5 +219,27 @@ footer {
   padding: 12px 18px;
   border-radius: 50%;
   color: black;
-  background: #f17070;
+  background: var(--secondry-background);
+}
+
+.creator {
+  text-align: center;
+  font-style: italic;
+  padding: 20px 0px;
+}
+.creator-contact-page {
+  text-align: center;
+  font-style: italic;
+  padding: 20px 0px;
+  font-size: medium;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+}
+.github-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;
+}
+.footer-name {
+  font-weight: bold;
 }

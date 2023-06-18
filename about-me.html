@@ -29,7 +29,11 @@
       crossorigin="anonymous"
     ></script>
     <link href="src/styles.css" rel="stylesheet" />
-    <title>About Me</title>
+    <meta
+      name="description"
+      content="Rezvan Sameti is a professionally trained front-end developer based in Iran, Tehran. Read more about Rezvan."
+    />
+    <title>About Rezvan</title>
   </head>
   <div class="container">
     <body>
@@ -40,10 +44,24 @@
             <span class="title-name">Rezvan Sameti</span>
           </p>
           <ul>
-            <li><a href="/index.html" target="_blank">Home</a></li>
-            <li><a href="#" target="_blank">About Me</a></li>
-            <li><a href="/work.html" target="_blank">My Projects</a></li>
-            <li><a href="/contact-me.html" target="_blank">Contact</a></li>
+            <li>
+              <a href="/index.html" target="_blank" title="Hoempage">Home</a>
+            </li>
+            <li>
+              <a href="/" target="_blank" title="About Rezvan" class="active"
+                >About Me</a
+              >
+            </li>
+            <li>
+              <a href="/work.html" target="_blank" title="Rezvan's Work"
+                >My Projects</a
+              >
+            </li>
+            <li>
+              <a href="/contact-me.html" target="_blank" title="Contact Rezvan"
+                >Contact</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -81,6 +99,24 @@
           </div>
         </div>
       </div>
+
+      <div class="work-inquiry mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-6 mt-3 mb-5 text-center">
+            <h2 class="work-together-one">Work Inquiry</h2>
+            <h5 class="work-together-two text-muted">Let's work together!</h5>
+          </div>
+          <div class="myButton col-md-6 mt-5 mb-5 text-center">
+            <a
+              class="btn btn-danger contactButton"
+              href="/contact-me.html"
+              target="_blank"
+              role="button"
+              >Contact me</a
+            >
+          </div>
+        </div>
+      </div>
       <footer class="mb-5">
         <a
           href="https://www.instagram.com/rezvan.codes"
@@ -106,6 +142,16 @@
           ><i class="fa-solid fa-envelope"></i
         ></a>
       </footer>
+      <div class="creator">
+        Coded by <span class="footer-name">Rezvan Sameti</span> span and
+        open-sourced on
+        <a
+          href="https://github.com/Sameti-R/my-portfolio-project"
+          target="_blank"
+          class="github-link"
+          >GitHub</a
+        >
+      </div>
     </body>
   </div>
 </html>
