@@ -67,7 +67,6 @@ p {
   object-fit: cover;
 }
 .starter {
-  text-align: start;
   font-family: var(--heading-font);
   font-size: 24px;
   font-style: italic;
